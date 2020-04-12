@@ -3,9 +3,9 @@ Dead simple script for extracting urls from ffuf's json output
 
 Requirements: jq-linux64
 
-Usage: stuf <jsonfile.json> <httpstatuscod>
+Usage: stuf <jsonfile.json> <status>
 
-Example: ./stuf.sh testfire.json 200
+Example: "./stuf.sh testfire.json 200"
 Output:
 
 http://testfire.net/admin
