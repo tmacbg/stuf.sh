@@ -9,7 +9,7 @@ setUrl(){
 }
 
 getUrl(){
-	echo "$url"|sed 's/"//g'
+	echo "$url"|sed 's/"//g'|sed 's/^.......//g'
 }
 
 printStat(){
