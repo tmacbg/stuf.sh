@@ -3,7 +3,7 @@ Dead simple script for extracting urls from ffuf's json output
 
 Requirements: jq-linux64
 
-!!!rename "jq-linux64" to "jq" before you run the script!!!
+!!!rename "jq-linux64" to "jq" and put in /usr/local/bin before running!!!
 
 
 Usage: 
